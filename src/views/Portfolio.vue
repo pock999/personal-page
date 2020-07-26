@@ -1,6 +1,6 @@
 <template>
   <div>
-    Profile
+    Portfolio
     <ComingSoon/>
   </div>
 </template>
@@ -9,7 +9,7 @@
 import ComingSoon from '../components/ComingSoon.vue';
 
 export default {
-  name: 'Profile',
+  name: 'Portfolio',
   components: {
     ComingSoon,
   },

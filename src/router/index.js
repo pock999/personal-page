@@ -2,6 +2,7 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Profile from '../views/Profile.vue';
+import Portfolio from '../views/Portfolio.vue';
 
 Vue.use(VueRouter);
 
@@ -15,6 +16,11 @@ const routes = [
     path: '/Profile',
     name: 'Profile',
     component: Profile,
+  },
+  {
+    path: '/Portfolio',
+    name: 'Portfolio',
+    component: Portfolio,
   },
   // {
   //   path: '/about',
