@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 import Home from '../views/Home.vue';
 import Profile from '../views/Profile.vue';
 import Portfolio from '../views/Portfolio.vue';
+import Experience from '../views/Experience.vue';
 
 Vue.use(VueRouter);
 
@@ -21,6 +22,11 @@ const routes = [
     path: '/Portfolio',
     name: 'Portfolio',
     component: Portfolio,
+  },
+  {
+    path: '/Experience',
+    name: 'Experience',
+    component: Experience,
   },
   // {
   //   path: '/about',
