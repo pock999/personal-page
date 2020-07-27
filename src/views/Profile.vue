@@ -20,7 +20,7 @@
             <v-list-item-title
             v-for="(item, index) in expertiseList"
             :key="index"
-            style="font-size: 18px;">
+            style="font-size: 18px; line-height: 28px;">
               {{ item }}
             </v-list-item-title>
           </v-list-item-content>
