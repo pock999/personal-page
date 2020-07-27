@@ -18,7 +18,7 @@
         <v-list-item>
           <v-list-item-content>
             <v-list-item-title
-            v-for="(item, index) in expertiseList"
+            v-for="(item, index) in skills"
             :key="index"
             style="font-size: 18px; line-height: 28px;">
               {{ item }}
@@ -35,7 +35,7 @@ export default {
   name: 'Profile',
   data() {
     return {
-      expertiseList: ['HTML、CSS', 'JavaScript、jQuery', 'Vue.js',
+      skills: ['HTML、CSS', 'JavaScript、jQuery', 'Vue.js', 'Git',
         'Python、Django', 'Java Web(Spring + Struts2 +Hibernate)'],
     };
   },
