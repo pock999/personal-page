@@ -40,7 +40,7 @@ export default {
 </script>
 <style lang="scss" scoped>
 .home {
-  margin-top: 100px;
+  margin-top: 40px;
 }
 .vue-typer {
   font-size: 2.5em;
