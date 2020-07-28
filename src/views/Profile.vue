@@ -36,7 +36,7 @@ export default {
   data() {
     return {
       skills: ['HTML、CSS', 'JavaScript、jQuery', 'Vue.js', 'Git',
-        'Python、Django', 'Java Web(Spring + Struts2 +Hibernate)'],
+        'Python、Django', 'Java Web(Spring + Struts2 +Hibernate)', 'MySQL'],
     };
   },
 };
